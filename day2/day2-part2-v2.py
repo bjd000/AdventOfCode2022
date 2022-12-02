@@ -78,6 +78,7 @@ def tally_game_points(p1: Player, p2: Player, game_outcome) -> None:
 def tally_total_points(p1: Player, p2: Player) -> None:
     p1.toal_points = p1.token_points + p1.game_points
     p2.toal_points = p2.token_points + p2.game_points
+    return
 
 
 def main(file: str, player_1: str, player_2: str) -> None:
