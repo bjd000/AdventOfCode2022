@@ -10,7 +10,6 @@ def main(file: str) -> None:
     with open(file, "r") as f:
         assignments = f.read().split("\n")
 
-    # solve_part1(assignments)
     full_overlap_cnt: int = 0
     part_overlap_cnt: int = 0
 
