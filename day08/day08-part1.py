@@ -1,5 +1,10 @@
 """This is a hot mess of linear, nested, redundant code, but it gets the job done.
 Part two was done a lot cleaner.
+
+Other code I looked at after my attempt: 
+https://github.com/benji-york/advent-of-code-2022/tree/main/8
+
+Useful tips to do this with less code and it runs faster.
 """
 
 import pandas as pd
